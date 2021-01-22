@@ -18,7 +18,7 @@ def get_all_entries():
             e.entry,
             e.date,
             e.mood_id
-        FROM entry e
+        FROM entries e
         """)
 
         # Initialize an empty list to hold all entry representations
